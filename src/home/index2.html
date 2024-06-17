@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Kids</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img width="150" src="/public/images/logo.remove.png" alt="Logo da Loja">
+            </div>
+            <h1 class="logo-text">WORLD KIDS</h1>
+        </div>
+        <div class="header-right">
+            <form action="#" class="search-form">
+                <input type="text" placeholder="Pesquisar">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <a href="#menu" class="menu-icon"><i class="fas fa-bars"></i> Menu</a>
+            <a href="#login" class="login-icon"><i class="fas fa-user"></i> Login</a>
+            <a href="#carrinho" class="carrinho">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="quantidade-carrinho">0</span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="#produtos"><i class="fas fa-tag"></i> Produtos</a></li>
+                <li><a href="#sobre"><i class="fas fa-info-circle"></i> Sobre</a></li>
+                <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à nossa loja!</h2>
+        <p>Encontre as melhores roupas para seus pequenos.</p>
+        <img src="/public/images/banner.jpg" alt="Banner da Loja">
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <img src="/public/images/femi 2.png" alt="Vestido feminino">
+            <h3>Vestido feminino</h3>
+            <p>R$120,99</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="/public/images/masc 1.png" alt="Pijama masculino">
+            <h3>Pijama</h3>
+            <p>R$150,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="/public/images/masc 2.png" alt="Camiseta">
+            <h3>Camiseta</h3>
+            <p>R$70,99</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma loja dedicada a fornecer roupas de qualidade para crianças de todas as idades.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Envie-nos uma mensagem para saber mais sobre nossos produtos.</p>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="patrocinadores">
+            <h3>Redes Sociais</h3>
+            <a href="#"><img src="/public/images/insta.png" alt="Instagram"></a>
+            <a href="#"><img src="/public/images/facebook-logo-5-1-removebg-preview (1).png" alt="Facebook"></a>
+            <a href="#"><img src="/public/images/twitter.png" alt="Twitter"></a>
+        </div>
+        <div class="redes-sociais">
+            <h3>Patrocinadores</h3>
+            <a href="#"><img src="/public/images/Democrata.png" alt="Democrata"></a>
+            <a href="#"><img src="/public/images/versace.png" alt="Versace"></a>
+            <a href="#"><img src="/public/images/Logo-Minipasso-removebg-preview.png" alt="Minipassos"></a>
+        </div>
+        <p>&copy; 2024 Loja de Roupas Infantis World Kids. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
